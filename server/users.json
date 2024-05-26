@@ -1,0 +1,84 @@
+{
+    "users": [
+      {
+        "id": 1690364471167,
+        "email": "aligod8001@gmail.com",
+        "password": "aligod8001",
+        "birthDate": 996175800000,
+        "creationDate": 1690364471167,
+        "modificationDate": 1691583855353,
+        "profileImage": null,
+        "userName": "Ali_God8001",
+        "favorite": [
+          {
+            "id": 121,
+            "name": "Without Me",
+            "src": "/musics/trends/without me.mp3",
+            "artist": "Halsey",
+            "coverImage": "/images/music/cover.webp",
+            "avatar": "/images/music/without-me.webp",
+            "playedCount": 63000000
+          },
+          {
+            "id": 124,
+            "name": "Attention",
+            "src": "/musics/trends/attention.mp3",
+            "artist": "Charlie Puth",
+            "coverImage": "/images/music/cover-4.webp",
+            "avatar": "/images/music/attention.webp",
+            "playedCount": 110000000
+          }
+        ],
+        "recent": [],
+        "playLists": [
+          {
+            "id": 1691578022452,
+            "creationDate": 1691578022452,
+            "title": "Programming-Fa",
+            "description": "its my playlsit for when i'm programming",
+            "color": "#ec16ff",
+            "avatar": null,
+            "musics": [
+              {
+                "id": 102,
+                "name": "Chap",
+                "src": "/musics/Ahmad Solo - Chap.mp3",
+                "artist": "Ahmad Solo",
+                "coverImage": "/images/music/chap.webp",
+                "avatar": "/images/music/chap.webp",
+                "playedCount": 14000
+              },
+              {
+                "id": 119,
+                "name": "Divoone Dost Dashtni",
+                "src": "/musics/Alireza Talischi - Divoone Dost Dashtni.mp3",
+                "artist": "Alireza Talischi",
+                "coverImage": "/images/music/divooneye-doos-dashtani.webp",
+                "avatar": "/images/music/divooneye-doos-dashtani.webp",
+                "playedCount": 36000
+              }
+            ]
+          },
+          {
+            "id": 1691577989614,
+            "creationDate": 1691577989614,
+            "title": "Programming-En",
+            "description": "its my playlsit for when i'm programming",
+            "color": "#1677FF",
+            "avatar": null,
+            "musics": [
+              {
+                "id": 122,
+                "name": "7 rings",
+                "src": "/musics/trends/7 rings.mp3",
+                "artist": "Ariana Grande",
+                "coverImage": "/images/music/cover-2.webp",
+                "avatar": "/images/music/7-rings.webp",
+                "playedCount": 73000000
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

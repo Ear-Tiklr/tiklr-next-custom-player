@@ -1,0 +1,226 @@
+{
+    "top-artists": [
+      {
+        "id": 201,
+        "name": "Amir Hafez",
+        "avatar": "/images/artist/amir-hafez.webp",
+        "musics": [
+          {
+            "id": 101,
+            "name": "Eshge Bi Gharare Man",
+            "src": "/musics/Amir Hafez - Eshghe Bi Gharare Man.mp3",
+            "artist": "Amir Hafez",
+            "coverImage": "/images/music/eshghe-bi-gharare-man.webp",
+            "avatar": "/images/music/eshghe-bi-gharare-man.webp",
+            "playedCount": 12000
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "name": "Ahmad Solo",
+        "avatar": "/images/artist/ahmad-solo.webp",
+        "musics": [
+          {
+            "id": 102,
+            "name": "Chap",
+            "src": "/musics/Ahmad Solo - Chap.mp3",
+            "artist": "Ahmad Solo",
+            "coverImage": "/images/music/chap.webp",
+            "avatar": "/images/music/chap.webp",
+            "playedCount": 14000
+          },
+          {
+            "id": 103,
+            "name": "Kash Naboodam",
+            "src": "/musics/Ahmad Solo - Kash Naboodam.mp3",
+            "artist": "Ahmad Solo",
+            "coverImage": "/images/music/kash naboodam.webp",
+            "avatar": "/images/music/kash naboodam.webp",
+            "playedCount": 25000
+          },
+          {
+            "id": 104,
+            "name": "Tamoomesh Kon",
+            "src": "/musics/Ahmad Solo - Tamoomesh Kon.mp3",
+            "artist": "Ahmad Solo",
+            "coverImage": "/images/music/tamoomesh-kon.webp",
+            "avatar": "/images/music/tamoomesh-kon.webp",
+            "playedCount": 7000
+          }
+        ]
+      },
+      {
+        "id": 203,
+        "name": "Ali Derakhshan",
+        "avatar": "/images/artist/ali-derakhshan.webp",
+        "musics": [
+          {
+            "id": 105,
+            "name": "Divoonegi",
+            "src": "/musics/Ali Derakhshan - Divoonegi.mp3",
+            "artist": "Ali Derakhshan",
+            "coverImage": "/images/music/divoonegi.webp",
+            "avatar": "/images/music/divoonegi.webp",
+            "playedCount": 27000
+          },
+          {
+            "id": 106,
+            "name": "Kheili Bacheie",
+            "src": "/musics/Ali Derakhshan - Kheili Bacheie.mp3",
+            "artist": "Ali Derakhshan",
+            "coverImage": "/images/music/kheili bacheie.webp",
+            "avatar": "/images/music/kheili bacheie.webp",
+            "playedCount": 21000
+          }
+        ]
+      },
+      {
+        "id": 204,
+        "name": "Ali Montazeri",
+        "avatar": "/images/artist/ali-montazeri.webp",
+        "musics": [
+          {
+            "id": 107,
+            "name": "Bi Saro Samanam",
+            "src": "/musics/Ali Montazeri - Bi Saro Samanam.mp3",
+            "artist": "Ali Montazeri",
+            "coverImage": "/images/music/bi-saro-samanam.webp",
+            "avatar": "/images/music/bi-saro-samanam.webp",
+            "playedCount": 74000
+          },
+          {
+            "id": 108,
+            "name": "Jane Delam",
+            "src": "/musics/Ali Montazeri - Jane Delam.mp3",
+            "artist": "Ali Montazeri",
+            "coverImage": "/images/music/jane-delam.webp",
+            "avatar": "/images/music/jane-delam.webp",
+            "playedCount": 124000
+          },
+          {
+            "id": 109,
+            "name": "Mahi",
+            "src": "/musics/Ali Montazeri - Mahi.mp3",
+            "artist": "Ali Montazeri",
+            "coverImage": "/images/music/mahi.webp",
+            "avatar": "/images/music/mahi.webp",
+            "playedCount": 34500
+          },
+          {
+            "id": 110,
+            "name": "Mehrabanam",
+            "src": "/musics/Ali Montazeri - Mehrabanam.mp3",
+            "artist": "Ali Montazeri",
+            "coverImage": "/images/music/mehrabanam.webp",
+            "avatar": "/images/music/mehrabanam.webp",
+            "playedCount": 2000
+          }
+        ]
+      },
+      {
+        "id": 205,
+        "name": "Ali Yasini",
+        "avatar": "/images/artist/ali-yasini.webp",
+        "musics": [
+          {
+            "id": 111,
+            "name": "Age Be Man Bood",
+            "src": "/musics/Ali Yasini - Age Be Man Bood.mp3",
+            "artist": "Ali Yasini",
+            "coverImage": "/images/music/age-be-man-bood.webp",
+            "avatar": "/images/music/age-be-man-bood.webp",
+            "playedCount": 46325
+          },
+          {
+            "id": 112,
+            "name": "Cheraghooni",
+            "src": "/musics/Ali Yasini - Cheraghooni.mp3",
+            "artist": "Ali Yasini",
+            "coverImage": "/images/music/cheraghooni.webp",
+            "avatar": "/images/music/cheraghooni.webp",
+            "playedCount": 34000
+          },
+          {
+            "id": 113,
+            "name": "Divar",
+            "src": "/musics/Ali Yasini - Divar.mp3",
+            "artist": "Ali Yasini",
+            "coverImage": "/images/music/divar.webp",
+            "avatar": "/images/music/divar.webp",
+            "playedCount": 15000
+          },
+          {
+            "id": 114,
+            "name": "Jang",
+            "src": "/musics/Ali Yasini - Jang.mp3",
+            "artist": "Ali Yasini",
+            "coverImage": "/images/music/jang.webp",
+            "avatar": "/images/music/jang.webp",
+            "playedCount": 12500
+          },
+          {
+            "id": 115,
+            "name": "Neghab",
+            "src": "/musics/Ali Yasini - Neghab.mp3",
+            "artist": "Ali Yasini",
+            "coverImage": "/images/music/neghab.webp",
+            "avatar": "/images/music/neghab.webp",
+            "playedCount": 32500
+          }
+        ]
+      },
+      {
+        "id": 206,
+        "name": "Alireza Talischi",
+        "avatar": "/images/artist/alireza-talischi.webp",
+        "musics": [
+          {
+            "id": 116,
+            "name": "Ay Dele Ghafel",
+            "src": "/musics/Alireza Talischi - Ay Dele Ghafel.mp3",
+            "artist": "Alireza Talischi",
+            "coverImage": "/images/music/ay-dele-ghafel.webp",
+            "avatar": "/images/music/ay-dele-ghafel.webp",
+            "playedCount": 145411
+          },
+          {
+            "id": 117,
+            "name": "Del Be Del",
+            "src": "/musics/Alireza Talischi - Del Be Del.mp3",
+            "artist": "Alireza Talischi",
+            "coverImage": "/images/music/del-be-del.webp",
+            "avatar": "/images/music/del-be-del.webp",
+            "playedCount": 13600
+          },
+          {
+            "id": 118,
+            "name": "Delet Omad",
+            "src": "/musics/Alireza Talischi - Delet Omad.mp3",
+            "artist": "Alireza Talischi",
+            "coverImage": "/images/music/delet-omad.webp",
+            "avatar": "/images/music/delet-omad.webp",
+            "playedCount": 14000
+          },
+          {
+            "id": 119,
+            "name": "Divoone Dost Dashtni",
+            "src": "/musics/Alireza Talischi - Divoone Dost Dashtni.mp3",
+            "artist": "Alireza Talischi",
+            "coverImage": "/images/music/divooneye-doos-dashtani.webp",
+            "avatar": "/images/music/divooneye-doos-dashtani.webp",
+            "playedCount": 36000
+          },
+          {
+            "id": 120,
+            "name": "Ghaf",
+            "src": "/musics/Alireza Talischi - Ghaf.mp3",
+            "artist": "Alireza Talischi",
+            "coverImage": "/images/music/ghaf.webp",
+            "avatar": "/images/music/ghaf.webp",
+            "playedCount": 54000
+          }
+        ]
+      }
+    ]
+  }
