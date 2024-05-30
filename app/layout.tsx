@@ -12,8 +12,8 @@ import Player from '@/components/player/Player'
 
 export const metadata : Metadata = {
   title: {
-    default: `${process.env.NEXT_PUBLIC_TITLE} | Ali_God`,
-    template: `${process.env.NEXT_PUBLIC_TITLE} | %s | Ali_God`
+    default: `${process.env.NEXT_PUBLIC_TITLE} | theroyalraj`,
+    template: `${process.env.NEXT_PUBLIC_TITLE} | %s | theroyalraj`
   }
 }
 

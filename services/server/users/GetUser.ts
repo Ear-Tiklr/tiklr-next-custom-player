@@ -12,6 +12,7 @@ const GetUser = async (userId: number): Promise<ServiceResponse<User>> => {
   });
 
   if (res.ok) {
+    console.log(res);
     data = await res.json();
   } else {
     status = res.status;
