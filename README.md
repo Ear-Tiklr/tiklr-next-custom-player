@@ -11,3 +11,7 @@ yarn dev
 # or
 pnpm dev
 ```
+
+Backend server is deployed on free plan on Render. It takes 50+ sec to spin up after inactivity. Please wait for the first time.
+
+CDN hosted on: Cloudinary
