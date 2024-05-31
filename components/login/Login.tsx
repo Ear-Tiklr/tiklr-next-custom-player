@@ -58,15 +58,15 @@ const Login = () => {
 
       $status = status;
       $statusText = statusText;
+      console.log(status, statusText);
     }
     setLoading(false);
-
-    const type = $status === 201 ? "success" : "error";
+    const type = $status === 200 ? "success" : "error";
     messageApi.open({
       type,
       content: $statusText,
     });
-    if ($status === 201) {
+    if ($status === 200) {
       setTimeout(() => {
         redirect(returnUrl);
       }, 1500);

@@ -37,7 +37,7 @@ const ProfileEdit = ({ userId }: { userId: number }) => {
     });
     setLoading(false);
 
-    if (status === 201) {
+    if (status === 200) {
       setUserInfo(data);
       setTimeout(() => {
         router.push("/profile");
@@ -45,9 +45,9 @@ const ProfileEdit = ({ userId }: { userId: number }) => {
       }, 1000);
     }
     messageApi.open({
-      type: status === 201 ? "success" : "error",
+      type: status === 101 ? "success" : "error",
       content:
-        status === 201 ? "Your Profile Info Successfully Changed" : error,
+        status === 101 ? "Your Profile Info Successfully Changed" : error,
     });
   };
 

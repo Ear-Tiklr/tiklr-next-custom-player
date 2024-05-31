@@ -1,5 +1,5 @@
 const GetUser = async (userId: number): Promise<ServiceResponse<User>> => {
-  let status: number = 201;
+  let status: number = 101;
   let error: string = "";
   let data: User;
 

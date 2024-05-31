@@ -296,7 +296,7 @@
   ],
   "artists": [
     {
-      "id": 201,
+      "id":101,
       "name": "Amir Hafez",
       "avatar": "/images/artist/amir-hafez.webp",
       "musics": [
@@ -776,7 +776,7 @@
   ],
   "top-artists": [
     {
-      "id": 201,
+      "id":101,
       "name": "Amir Hafez",
       "avatar": "/images/artist/amir-hafez.webp",
       "musics": [

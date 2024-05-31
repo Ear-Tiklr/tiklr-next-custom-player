@@ -1,5 +1,5 @@
 const GetMusic = async (id: number): Promise<ServiceResponse<Music>> => {
-  let status: number = 201;
+  let status: number = 101;
   let error: string = "";
   let data: Music;
 

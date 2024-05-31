@@ -52,11 +52,11 @@ const PlayListItem = ({
   const PopconfirmOkHandler = async () => {
     setLoading(true);
     const { status, statusText, data } = await deletePlaylist(playlistData.id);
-    if ( data ) {
+    if (data) {
       setLoading(false);
-      hidePopConfirm()
+      hidePopConfirm();
     }
-    onShowMessage(status === 201 ? "success" : "error", statusText);
+    onShowMessage(status === 101 ? "success" : "error", statusText);
   };
 
   const hidePopConfirm = () => {

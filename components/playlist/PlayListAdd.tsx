@@ -75,8 +75,8 @@ const PlayListAdd = ({
     });
 
     setLoading(false);
-    onShowMessage(status === 201 ? "success" : "error", statusText);
-    if (status === 201) {
+    onShowMessage(status === 101 ? "success" : "error", statusText);
+    if (status === 200) {
       formApi.resetFields();
       reset();
     }
@@ -125,7 +125,13 @@ const PlayListAdd = ({
               PlayList Avatar:
             </label>
             <label htmlFor="playlistAvatar">
-              {imageLoading ? <div className={styles.img}><Spin /></div> : <Avatar {...avatarProps}>{!image ? "PA" : ""}</Avatar>}
+              {imageLoading ? (
+                <div className={styles.img}>
+                  <Spin />
+                </div>
+              ) : (
+                <Avatar {...avatarProps}>{!image ? "PA" : ""}</Avatar>
+              )}
             </label>
             {output}
           </div>

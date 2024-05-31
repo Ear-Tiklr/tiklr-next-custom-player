@@ -46,7 +46,7 @@ export const useUserStore = create<UserStoreState>()((set) => ({
       music
     );
 
-    if (res.status === 201) {
+    if (res.status === 200) {
       set(() => ({ favorite: res.data }));
     }
   },
@@ -57,7 +57,7 @@ export const useUserStore = create<UserStoreState>()((set) => ({
         music
       );
 
-      if (res.status === 201) {
+      if (res.status === 200) {
         set(() => ({ recent: res.data }));
       }
     }
@@ -102,7 +102,7 @@ export const useUserStore = create<UserStoreState>()((set) => ({
       statusText = error;
     }
 
-    if (status === 201) {
+    if (status === 200) {
       set(() => ({ playLists: data }));
       useAppStore.getState().setMusic(useUserStore.getState().recent[0]);
       useAppStore.getState().setPlayingState(false);
@@ -137,7 +137,7 @@ export const useUserStore = create<UserStoreState>()((set) => ({
         useAppStore.getState().setPlaylist(playlist.title, playlist.musics);
       }
       return {
-        status: 201,
+        status: 101,
         statusText: `Music ${
           type === "add" ? "Add To" : "Remove From"
         } PlayList Successfully`,
