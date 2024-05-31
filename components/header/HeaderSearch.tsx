@@ -1,32 +1,33 @@
-import { useRouter } from 'next/navigation'
-import { FormEvent, useRef } from 'react'
+import { useRouter } from "next/navigation";
+import { FormEvent, useRef } from "react";
 
-import Icon from '../ui/Icon'
+import Icon from "../ui/Icon";
 
-import styles from './HeaderSearch.module.scss'
+import styles from "./HeaderSearch.module.scss";
 
 const HeaderSearch = () => {
-    const router = useRouter()
-    const searchInputRef = useRef<HTMLInputElement>()
+  const router = useRouter();
+  const searchInputRef = useRef<HTMLInputElement>();
 
-    
-    const searchSubmitHandler = (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault()
+  const searchSubmitHandler = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
-        router.push(`/search?text=${searchInputRef.current.value}`)
-    }
+    router.push(`/search?text=${searchInputRef.current.value}`);
+  };
 
-    return <div className={styles['search-wrapper']}>
-        <Icon className={styles.icon} icon='search' />
-        <form onSubmit={searchSubmitHandler}>
-            <input 
-                className={styles.search}
-                type='search' 
-                placeholder='search your music here...' 
-                ref={searchInputRef}
-            />
-        </form>
+  return (
+    <div>
+      {/* <Icon className={styles.icon} icon="search" />
+      <form onSubmit={searchSubmitHandler}>
+        <input
+          className={styles.search}
+          type="search"
+          placeholder="search your music here..."
+          ref={searchInputRef}
+        />
+      </form> */}
     </div>
-}
+  );
+};
 
-export default HeaderSearch
+export default HeaderSearch;

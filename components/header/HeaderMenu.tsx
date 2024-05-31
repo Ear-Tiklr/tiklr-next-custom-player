@@ -9,7 +9,7 @@ const HeaderMenu = () => {
   return (
     <nav className={styles.menu}>
       <Link
-        href="/home"
+        href="/"
         className={`${styles.link} ${path === "/" ? styles.active : ""}`}
       >
         Home
