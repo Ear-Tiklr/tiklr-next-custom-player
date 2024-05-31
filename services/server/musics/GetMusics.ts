@@ -2,7 +2,7 @@
 
 const GetMusics = async (query: string = ""): Promise<Music[]> => {
   let url = process.env.NEXT_PUBLIC_MUSICS_API as string;
-  if (query) {
+  if (query && query != "") {
     url += "?query=" + query;
   }
   const res = await fetch(url, {
