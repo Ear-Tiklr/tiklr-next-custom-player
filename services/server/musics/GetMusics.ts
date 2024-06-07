@@ -1,15 +1,43 @@
 // Adjust the import path according to your project structure
 
-const GetMusics = async (query: string = ""): Promise<Music[]> => {
+const GetMusics = async (
+  query: string = "",
+  type: string = ""
+): Promise<Music[]> => {
   let url = process.env.NEXT_PUBLIC_MUSICS_API as string;
   if (query && query != "") {
     url += "?query=" + query;
   }
+
+  if (type && (type == "generate" || type == "genre8")) {
+    let genUrl = process.env.NEXT_PUBLIC_FLASK_BACKEND as string;
+    console.log("genUrl", genUrl);
+    let payload = {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        prompts: [query],
+        modelName: "",
+      }),
+    };
+    console.log(payload);
+    const genRes = await fetch(`${genUrl}?duration=5`, payload);
+
+    console.log(genRes);
+
+    if (!genRes.ok) {
+      throw new Error("Failed to generate music");
+    }
+    console.log(genRes);
+
+    const genData = await genRes.json();
+    return genData.content;
+  }
   const res = await fetch(url, {
     headers: {
       Accept: "application/json",
-      Cookie:
-        "jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2NGY0NDg5MGZmYWFmMjBkMTUzMjM2OCIsImlhdCI6MTcxNjQ3MTIyOSwiZXhwIjoxNzE5MDYzMjI5fQ.Z78wLQJ8a8mB7yfXfKxK3XbsO0ZE92SF3LaEX_7mrTc",
     },
   });
   if (!res.ok) {

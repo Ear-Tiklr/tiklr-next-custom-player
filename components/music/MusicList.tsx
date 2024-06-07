@@ -9,10 +9,12 @@ const MusicList = ({
   name,
   musics,
   playListId,
+  query,
 }: {
   name?: string;
   musics: Music[];
   playListId: string;
+  query: string;
 }) => {
   const [setMusic, setPlaylist, id] = useAppStore((state) => [
     state.setMusic,

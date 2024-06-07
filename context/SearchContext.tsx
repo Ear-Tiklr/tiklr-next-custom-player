@@ -1,5 +1,4 @@
 "use client";
-
 import { createContext, useContext, useState, ReactNode } from "react";
 
 interface SearchContextType {
@@ -21,8 +20,8 @@ export const SearchProvider = ({ children }: { children: ReactNode }) => {
 
 export const useSearch = () => {
   const context = useContext(SearchContext);
-  if (!context) {
-    return "";
+  if (context) {
+    return context;
   }
   return context;
 };
