@@ -5,7 +5,6 @@ const Musics = ({ musics, query }: { musics: Music[]; query: string }) => {
     <MusicList
       musics={musics}
       playListId="musics-page-playlist"
-      query={query}
     />
   );
 };
